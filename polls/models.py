@@ -18,7 +18,9 @@ class Question(models.Model):
     #    return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
 
     @admin.display(
-        boolean=True, ordering="pub_date", description="Published recently?",
+        boolean=True,
+        ordering="pub_date",
+        description="Published recently?",
     )
     def was_published_recently(self):
         now = timezone.now()
