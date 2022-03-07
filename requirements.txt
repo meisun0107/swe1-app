@@ -1,7 +1,7 @@
 gunicorn
 django-heroku
 django
-flake8
 black
+flake8
 coverage
 coveralls
