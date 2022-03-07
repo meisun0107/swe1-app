@@ -1,0 +1,7 @@
+gunicorn
+django-heroku
+django
+flake8
+black
+coverage
+coveralls
